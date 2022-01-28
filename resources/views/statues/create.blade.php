@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>New statue</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
             @enderror
         </div>
         <div>
-            <input type="submit" value="Create">
+            <input type="submit" value="Create" class="btn-secondary">
         </div>
     </form>
 </body>

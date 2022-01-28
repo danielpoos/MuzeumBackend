@@ -1,0 +1,11 @@
+html, body{
+    background-color: darkcyan;
+    color:white;
+    font-family: 'Comic Sans MS';
+}
+a{
+    color :aqua;
+}
+a:hover{
+    color :coral;
+}
