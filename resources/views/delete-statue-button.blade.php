@@ -1,0 +1,1 @@
+<form action="{{ route('statues.destroy', $st->id) }}" method="POST">@csrf @method('DELETE')<button type="submit">Delete</button></form>
